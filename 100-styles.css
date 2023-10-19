@@ -1,0 +1,44 @@
+.our-results {
+  padding: 50px;
+  text-align: center;
+  background-image: url(images/headphones_hero_2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+}
+
+.result-icon {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.pentagon {
+  position: relative;
+  width: 150px;
+  height: 0;
+  padding-bottom: 46.603%;
+  background-color: red;
+  clip-path: polygon(50% 0%, 100% 35%, 82% 100%, 18% 100%, 0% 35%);
+  transform: rotate(0deg);
+}
+
+.pentagon .bgimg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.pentagon .bgimg p {
+  margin: 0;
+}
+
+.pentagon .bgimg .something {
+  font-weight: bold;
+}

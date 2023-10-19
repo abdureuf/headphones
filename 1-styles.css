@@ -1,0 +1,39 @@
+/* "What we do..." section Styles */
+.what-we-do {
+    background-color: #f7f7f7;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .what-we-do h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .services-container {
+    display:grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+      margin-top: 30px;
+  }
+  
+  .service {
+   padding: 10px;
+  }
+  
+  .service i {
+    
+      font-size: 4rem;
+      color: #ff6565;
+  
+  }
+  
+  .service h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .service p {
+    font-size: 16px;
+  }

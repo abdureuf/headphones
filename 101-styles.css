@@ -1,0 +1,110 @@
+/* Animation Styles */
+@keyframes scaleAnimation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes rotateAnimation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Hover Animation Styles */
+.what-we-do .service:hover {
+  animation: scaleAnimation 0.5s infinite;
+}
+
+.what-we-do .service:hover i {
+  animation: rotateAnimation 1s infinite;
+}
+
+.what-we-do .service {
+  opacity: 0;
+  animation: fadeInAnimation 1s ease-in-out forwards;
+}
+
+.what-we-do .service:nth-child(1) {
+  animation-delay: 0.2s;
+}
+
+.what-we-do .service:nth-child(2) {
+  animation-delay: 0.4s;
+}
+
+.what-we-do .service:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+.what-we-do .service:nth-child(4) {
+  animation-delay: 0.8s;
+}
+/* Animation Styles */
+@keyframes scaleAnimation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes rotateAnimation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes bounceAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* Hover Animation Styles */
+.our-results .bgimg:hover {
+  animation: scaleAnimation 0.5s infinite;
+}
+
+.our-results .bgimg:hover p {
+  transition: all 0.5s ease-in-out;
+}
+
+.our-results .bgimg:hover p.something {
+  animation: rotateAnimation 1s infinite;
+}
+
+.our-results .bgimg:hover p.something:hover {
+  animation: bounceAnimation 0.5s infinite;
+}

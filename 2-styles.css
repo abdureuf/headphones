@@ -1,0 +1,38 @@
+.our-results {
+  /* background-color: #fff; */
+  padding: 50px;
+  text-align: center;
+  background-image: url(images/headphones_hero_2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+}
+
+.result-icon {
+  display: grid;
+  justify-content: center;
+  align-items: center; /* Added to vertically center the content */
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.bgimg {
+  background-image: url(images/pentagone.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: auto; /* Center the container horizontally */
+  margin-right: auto; /* Center the container horizontally */
+}
+
+.bgimg p {
+  font-size: large;
+}
+
+.result-icon .something {
+  margin: 10px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
